@@ -1,0 +1,227 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rpm');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #fff;
+}
+
+body {
+    width: 100%;
+    background-image: url(./assets/espaço.jpg);
+    background-size: cover;
+    
+}
+
+
+
+header{
+
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo{
+    width:250px;
+    height:100% ;  
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.logo-img{
+    
+    width: 30%;
+    margin-right: 20px;
+}
+
+.logo-text{
+    font-family:'Star Wars';
+    font-size: 1rem;
+}
+
+.social-midia{
+    width:130px;
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+
+i:hover{
+    color: gold
+}
+
+
+
+h2{
+    
+    display: flex;
+    font-family:'Star Wars';
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: 300;
+    border: 1px solid  #000;
+  
+}
+
+.mainu-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding: 20px 0;
+}
+
+
+.mainu-content{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 0 20px;
+}
+
+.cards{
+    width:300px;
+    height:450px ;   
+    display: flex;
+    background-position: 50% 50%;
+    background-size: cover;
+    align-items: end;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.8s;
+    padding: 5px;
+}
+
+.cards:hover{
+    transform: scale(1.05);
+}
+
+.spacers-name-bg{
+    width:100%;
+    height:30px;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid  #000;
+}
+
+.spacers-name{
+    font-family:'RPM', sans-serif;
+    color: gold;
+    font-size: 1.1rem ;
+    font-weight: 500;
+}
+
+.buttons{
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+button{
+    width:70px;
+    height:25px;
+    background-color: gold;
+    color: #000;
+    font-weight: 600;
+    border-radius: 3px;
+    border: 1px solid  #000;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+   
+}
+button:hover{
+    background-color: #000;
+    color: gold;
+}
+
+#back-button{
+   visibility: hidden; 
+ 
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 40px 0 20px 0;
+}
+
+
+.footer-logo {
+    font-family: "Star Wars",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.modalu{
+    visibility: hidden;
+    width: 100vw;
+    display: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+   
+}
+
+.modalu-content{
+    width: 25vw;
+    height:70vh;
+    background-color: #0d0d0d;
+    flex-direction: column;
+    border-radius: 12px;
+    align-items: center;
+    row-gap: 15px;
+    display: flex;
+    padding: 30px 10px;
+}
+
+.spacers-image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-position: 50% 10%;
+    background-size: cover;
+
+}
+
+.spacers-details {
+    font-family: 'RPM',sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: gold;
+}
+
+
